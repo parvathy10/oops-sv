@@ -6,7 +6,7 @@ class Q;
     int j;
     P a; // Object of class P as a member of class Q
 
-    task automatic copy(P obj); // Task to perform deep copy
+    task automatic copy(P obj); // Task to perform the deep copy
         this.a = new();
         this.a = obj; // Deep copy
     endtask
