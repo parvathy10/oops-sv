@@ -5,7 +5,7 @@ $display("Parent class display method");
 endfunction
 endclass
 class SubClass extends ParentClass;
-// Inherits the 'value' property and 'display' method from ParentClass
+// Inherits the 'value' property and 'display' method from ParentClass.
 int val = 50;
 function void display();
 super.display(); // Calls the 'display' method of the parent class
